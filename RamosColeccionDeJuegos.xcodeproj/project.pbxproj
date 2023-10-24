@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63246C872AE8850A00313F5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63246C862AE8850A00313F5F /* AppDelegate.swift */; };
+		63246C892AE8850A00313F5F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63246C882AE8850A00313F5F /* SceneDelegate.swift */; };
+		63246C8B2AE8850A00313F5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63246C8A2AE8850A00313F5F /* ViewController.swift */; };
+		63246C8E2AE8850A00313F5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63246C8C2AE8850A00313F5F /* Main.storyboard */; };
+		63246C912AE8850A00313F5F /* RamosColeccionDeJuegos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 63246C8F2AE8850A00313F5F /* RamosColeccionDeJuegos.xcdatamodeld */; };
+		63246C932AE8850B00313F5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63246C922AE8850B00313F5F /* Assets.xcassets */; };
+		63246C962AE8850B00313F5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63246C942AE8850B00313F5F /* LaunchScreen.storyboard */; };
+		63246CA12AE8850B00313F5F /* RamosColeccionDeJuegosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63246CA02AE8850B00313F5F /* RamosColeccionDeJuegosTests.swift */; };
+		63246CAB2AE8850B00313F5F /* RamosColeccionDeJuegosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63246CAA2AE8850B00313F5F /* RamosColeccionDeJuegosUITests.swift */; };
+		63246CAD2AE8850B00313F5F /* RamosColeccionDeJuegosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63246CAC2AE8850B00313F5F /* RamosColeccionDeJuegosUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63246C9D2AE8850B00313F5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63246C7B2AE8850A00313F5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63246C822AE8850A00313F5F;
+			remoteInfo = RamosColeccionDeJuegos;
+		};
+		63246CA72AE8850B00313F5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63246C7B2AE8850A00313F5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63246C822AE8850A00313F5F;
+			remoteInfo = RamosColeccionDeJuegos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63246C832AE8850A00313F5F /* RamosColeccionDeJuegos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RamosColeccionDeJuegos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63246C862AE8850A00313F5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63246C882AE8850A00313F5F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		63246C8A2AE8850A00313F5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63246C8D2AE8850A00313F5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63246C902AE8850A00313F5F /* RamosColeccionDeJuegos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RamosColeccionDeJuegos.xcdatamodel; sourceTree = "<group>"; };
+		63246C922AE8850B00313F5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63246C952AE8850B00313F5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63246C972AE8850B00313F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63246C9C2AE8850B00313F5F /* RamosColeccionDeJuegosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RamosColeccionDeJuegosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63246CA02AE8850B00313F5F /* RamosColeccionDeJuegosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RamosColeccionDeJuegosTests.swift; sourceTree = "<group>"; };
+		63246CA62AE8850B00313F5F /* RamosColeccionDeJuegosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RamosColeccionDeJuegosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63246CAA2AE8850B00313F5F /* RamosColeccionDeJuegosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RamosColeccionDeJuegosUITests.swift; sourceTree = "<group>"; };
+		63246CAC2AE8850B00313F5F /* RamosColeccionDeJuegosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RamosColeccionDeJuegosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63246C802AE8850A00313F5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63246C992AE8850B00313F5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63246CA32AE8850B00313F5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63246C7A2AE8850A00313F5F = {
+			isa = PBXGroup;
+			children = (
+				63246C852AE8850A00313F5F /* RamosColeccionDeJuegos */,
+				63246C9F2AE8850B00313F5F /* RamosColeccionDeJuegosTests */,
+				63246CA92AE8850B00313F5F /* RamosColeccionDeJuegosUITests */,
+				63246C842AE8850A00313F5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63246C842AE8850A00313F5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63246C832AE8850A00313F5F /* RamosColeccionDeJuegos.app */,
+				63246C9C2AE8850B00313F5F /* RamosColeccionDeJuegosTests.xctest */,
+				63246CA62AE8850B00313F5F /* RamosColeccionDeJuegosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63246C852AE8850A00313F5F /* RamosColeccionDeJuegos */ = {
+			isa = PBXGroup;
+			children = (
+				63246C862AE8850A00313F5F /* AppDelegate.swift */,
+				63246C882AE8850A00313F5F /* SceneDelegate.swift */,
+				63246C8A2AE8850A00313F5F /* ViewController.swift */,
+				63246C8C2AE8850A00313F5F /* Main.storyboard */,
+				63246C922AE8850B00313F5F /* Assets.xcassets */,
+				63246C942AE8850B00313F5F /* LaunchScreen.storyboard */,
+				63246C972AE8850B00313F5F /* Info.plist */,
+				63246C8F2AE8850A00313F5F /* RamosColeccionDeJuegos.xcdatamodeld */,
+			);
+			path = RamosColeccionDeJuegos;
+			sourceTree = "<group>";
+		};
+		63246C9F2AE8850B00313F5F /* RamosColeccionDeJuegosTests */ = {
+			isa = PBXGroup;
+			children = (
+				63246CA02AE8850B00313F5F /* RamosColeccionDeJuegosTests.swift */,
+			);
+			path = RamosColeccionDeJuegosTests;
+			sourceTree = "<group>";
+		};
+		63246CA92AE8850B00313F5F /* RamosColeccionDeJuegosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63246CAA2AE8850B00313F5F /* RamosColeccionDeJuegosUITests.swift */,
+				63246CAC2AE8850B00313F5F /* RamosColeccionDeJuegosUITestsLaunchTests.swift */,
+			);
+			path = RamosColeccionDeJuegosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63246C822AE8850A00313F5F /* RamosColeccionDeJuegos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63246CB02AE8850B00313F5F /* Build configuration list for PBXNativeTarget "RamosColeccionDeJuegos" */;
+			buildPhases = (
+				63246C7F2AE8850A00313F5F /* Sources */,
+				63246C802AE8850A00313F5F /* Frameworks */,
+				63246C812AE8850A00313F5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RamosColeccionDeJuegos;
+			productName = RamosColeccionDeJuegos;
+			productReference = 63246C832AE8850A00313F5F /* RamosColeccionDeJuegos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63246C9B2AE8850B00313F5F /* RamosColeccionDeJuegosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63246CB32AE8850B00313F5F /* Build configuration list for PBXNativeTarget "RamosColeccionDeJuegosTests" */;
+			buildPhases = (
+				63246C982AE8850B00313F5F /* Sources */,
+				63246C992AE8850B00313F5F /* Frameworks */,
+				63246C9A2AE8850B00313F5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63246C9E2AE8850B00313F5F /* PBXTargetDependency */,
+			);
+			name = RamosColeccionDeJuegosTests;
+			productName = RamosColeccionDeJuegosTests;
+			productReference = 63246C9C2AE8850B00313F5F /* RamosColeccionDeJuegosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63246CA52AE8850B00313F5F /* RamosColeccionDeJuegosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63246CB62AE8850B00313F5F /* Build configuration list for PBXNativeTarget "RamosColeccionDeJuegosUITests" */;
+			buildPhases = (
+				63246CA22AE8850B00313F5F /* Sources */,
+				63246CA32AE8850B00313F5F /* Frameworks */,
+				63246CA42AE8850B00313F5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63246CA82AE8850B00313F5F /* PBXTargetDependency */,
+			);
+			name = RamosColeccionDeJuegosUITests;
+			productName = RamosColeccionDeJuegosUITests;
+			productReference = 63246CA62AE8850B00313F5F /* RamosColeccionDeJuegosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63246C7B2AE8850A00313F5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					63246C822AE8850A00313F5F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					63246C9B2AE8850B00313F5F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 63246C822AE8850A00313F5F;
+					};
+					63246CA52AE8850B00313F5F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 63246C822AE8850A00313F5F;
+					};
+				};
+			};
+			buildConfigurationList = 63246C7E2AE8850A00313F5F /* Build configuration list for PBXProject "RamosColeccionDeJuegos" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63246C7A2AE8850A00313F5F;
+			productRefGroup = 63246C842AE8850A00313F5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63246C822AE8850A00313F5F /* RamosColeccionDeJuegos */,
+				63246C9B2AE8850B00313F5F /* RamosColeccionDeJuegosTests */,
+				63246CA52AE8850B00313F5F /* RamosColeccionDeJuegosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63246C812AE8850A00313F5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63246C962AE8850B00313F5F /* LaunchScreen.storyboard in Resources */,
+				63246C932AE8850B00313F5F /* Assets.xcassets in Resources */,
+				63246C8E2AE8850A00313F5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63246C9A2AE8850B00313F5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63246CA42AE8850B00313F5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63246C7F2AE8850A00313F5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63246C8B2AE8850A00313F5F /* ViewController.swift in Sources */,
+				63246C872AE8850A00313F5F /* AppDelegate.swift in Sources */,
+				63246C912AE8850A00313F5F /* RamosColeccionDeJuegos.xcdatamodeld in Sources */,
+				63246C892AE8850A00313F5F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63246C982AE8850B00313F5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63246CA12AE8850B00313F5F /* RamosColeccionDeJuegosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63246CA22AE8850B00313F5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63246CAB2AE8850B00313F5F /* RamosColeccionDeJuegosUITests.swift in Sources */,
+				63246CAD2AE8850B00313F5F /* RamosColeccionDeJuegosUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63246C9E2AE8850B00313F5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63246C822AE8850A00313F5F /* RamosColeccionDeJuegos */;
+			targetProxy = 63246C9D2AE8850B00313F5F /* PBXContainerItemProxy */;
+		};
+		63246CA82AE8850B00313F5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63246C822AE8850A00313F5F /* RamosColeccionDeJuegos */;
+			targetProxy = 63246CA72AE8850B00313F5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63246C8C2AE8850A00313F5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63246C8D2AE8850A00313F5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63246C942AE8850B00313F5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63246C952AE8850B00313F5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63246CAE2AE8850B00313F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63246CAF2AE8850B00313F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63246CB12AE8850B00313F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RamosColeccionDeJuegos/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = miempresa.com.RamosColeccionDeJuegos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63246CB22AE8850B00313F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RamosColeccionDeJuegos/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = miempresa.com.RamosColeccionDeJuegos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		63246CB42AE8850B00313F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = miempresa.com.RamosColeccionDeJuegosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RamosColeccionDeJuegos.app/RamosColeccionDeJuegos";
+			};
+			name = Debug;
+		};
+		63246CB52AE8850B00313F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = miempresa.com.RamosColeccionDeJuegosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RamosColeccionDeJuegos.app/RamosColeccionDeJuegos";
+			};
+			name = Release;
+		};
+		63246CB72AE8850B00313F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = miempresa.com.RamosColeccionDeJuegosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RamosColeccionDeJuegos;
+			};
+			name = Debug;
+		};
+		63246CB82AE8850B00313F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = miempresa.com.RamosColeccionDeJuegosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RamosColeccionDeJuegos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63246C7E2AE8850A00313F5F /* Build configuration list for PBXProject "RamosColeccionDeJuegos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63246CAE2AE8850B00313F5F /* Debug */,
+				63246CAF2AE8850B00313F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63246CB02AE8850B00313F5F /* Build configuration list for PBXNativeTarget "RamosColeccionDeJuegos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63246CB12AE8850B00313F5F /* Debug */,
+				63246CB22AE8850B00313F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63246CB32AE8850B00313F5F /* Build configuration list for PBXNativeTarget "RamosColeccionDeJuegosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63246CB42AE8850B00313F5F /* Debug */,
+				63246CB52AE8850B00313F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63246CB62AE8850B00313F5F /* Build configuration list for PBXNativeTarget "RamosColeccionDeJuegosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63246CB72AE8850B00313F5F /* Debug */,
+				63246CB82AE8850B00313F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		63246C8F2AE8850A00313F5F /* RamosColeccionDeJuegos.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				63246C902AE8850A00313F5F /* RamosColeccionDeJuegos.xcdatamodel */,
+			);
+			currentVersion = 63246C902AE8850A00313F5F /* RamosColeccionDeJuegos.xcdatamodel */;
+			path = RamosColeccionDeJuegos.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 63246C7B2AE8850A00313F5F /* Project object */;
+}
